@@ -6,39 +6,42 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>WebStudio (Version 2.1)</title>
-    <link rel="stylesheet" href="./css/styles.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link
         href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
         rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css">
+    <link rel="stylesheet" href="./css/styles.css">
 </head>
 
 <body>
+<!-- ---------------------------------------------------------------------------header----------------------------------------------------------------- -->
+<div class="header-div">
+    <header class="header-nav">
+        <a lang="en" href="./index.html" class="logo-link"><span class="logo-accent">Web</span><span
+                class="logo-header">Studio</span></a>
 
-    <header>
-        <a lang="en" href="./index.html" class="logo-link"><span class="logo-accent">Web</span><span class="logo-header">Studio</span></a>
         <nav>
-            <ul class="list">
+            <ul class="nav list">
                 <li><a class="nav-link" href="./index.html">Студия</a></li>
-                <li><a class="nav-link-current" href="./portfolio.html">Портфолио</a></li>
+                <li><a class="nav-link current" href="./portfolio.html">Портфолио</a></li>
                 <li><a class="nav-link" href="">Контакты</a></li>
             </ul>
         </nav>
-        <div>
-            <ul class="list">
-                <li><a class="nav-contact" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-                <li><a class="nav-contact" href="tel:+380961111111">+38 096 111 11 11</a></li>
-            </ul>
-        </div>
+        <ul class="contact-list">
+            <li><a class="nav-contact" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
+            <li><a class="nav-contact" href="tel:+380961111111">+38 096 111 11 11</a></li>
+        </ul>
     </header>
+</div>
 
-    <!--main-->
+    <!-----------------------------------------------------------------------------main----------------------------------------------------------------------------->
    <main>
        <!-- filters -->
-       <section>
+       <section class="container">
            <h1 class="section-title-hidden">Портфолио</h1>
-           <ul class="list">
+           <ul class="filter list">
             <li><button class="filter-button" type="button">Все</button></li>
             <li><button class="filter-button" type="button">Веб-сайты</button></li>
             <li><button class="filter-button" type="button">Приложения</button></li>
@@ -49,7 +52,7 @@
 
        <!-- projects -->
        
-               <ul class="list">
+               <ul class="projects list">
                <li><a href="" class="link">
                    <img width="370" src="./images/technokr.jpg" alt="Технокряк">
                    <h2 class="title-portfolio">Технокряк</h2>
@@ -64,6 +67,14 @@
                        <p class="project-type">Дизайн</p>
                     </a>
                 </li>
+
+            <li>
+                <a href="" class="link">
+                    <img width="370" src="./images/seafood.jpg" alt="Ресторан Seafood">
+                    <h2 class="title-portfolio">Ресторан Seafood</h2>
+                    <p class="project-type">Приложение</p>
+                </a>
+            </li>
 
                <li>
                    <a href="" class="link">
@@ -112,31 +123,27 @@
                     </a>
                 </li>   
 
-               <li>
-                   <a href="" class="link">
-                       <img width="370" src="./images/seafood.jpg" alt="Ресторан Seafood">
-                       <h2 class="title-portfolio">Ресторан Seafood</h2>
-                       <p class="project-type">Приложение</p>
-                    </a>
-                </li>
+
            </ul>
        </section>
 
    </main>
 
-        <!--footer-->
-<footer>
-    <a lang="en" href="./index.html" class="logo-link"><span class="logo-accent">Web</span><span
-            class="logo-footer">Studio</span></a>
-    <address>
-        <ul class="list">
-            <li><a class="address" href="https://goo.gl/maps/949zWMk1F1yrqGog6" target="_blank"
-                    rel="noreferrer noopener">г. Киев, пр-т Леси Украинки, 26</a></li>
-            <li><a class="address" href="mailto:info@example.com">info@example.com</a></li>
-            <li><a class="address" href="tel:+380991111111">+38 099 111 11 11</a></li>
-        </ul>
-    </address>
-</footer>
+<!-----------------------------------------------------------------------------footer----------------------------------------------------------------------------->
+<div class="footer-div">
+    <footer class="footer">
+        <a lang="en" href="./index.html" class="logo-link"><span class="logo-accent">Web</span><span
+                class="logo-footer">Studio</span></a>
+        <address>
+            <ul class="list">
+                <li><a class="address" href="https://goo.gl/maps/949zWMk1F1yrqGog6" target="_blank"
+                        rel="noreferrer noopener">г. Киев, пр-т Леси Украинки, 26</a></li>
+                <li><a class="address" href="mailto:info@example.com">info@example.com</a></li>
+                <li><a class="address" href="tel:+380991111111">+38 099 111 11 11</a></li>
+            </ul>
+        </address>
+    </footer>
+</div>
 
 </body>
 
