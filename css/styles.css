@@ -59,9 +59,8 @@ margin-left: auto;
 
 
 
+/* header */
 
-
-/* ------------------------------------------------------------header------------------------------------------------------------ */
 header {
     background-color: var(--main-background); 
     border-bottom: 1px solid #ECECEC; 
@@ -169,7 +168,7 @@ header {
   margin-right: 50px;
 }
 
-/* ------------------------------------------------------------hero------------------------------------------------------------ */
+/* hero */
 .hero {
   background-color: var(--dark-background);
   text-align: center;
@@ -197,12 +196,9 @@ header {
 background: var(--hero-button-hover);
 }
 
-/* ----------------------------------- main ----------------------- */
+/* main */
 
-/* ------------------------------------feature-------------------------------------- */
-/* .features-section {
-  margin-bottom: 94px;
-} */
+/* features */
 
 .features.list {
 display: flex;
@@ -241,7 +237,7 @@ justify-content: center;
   background-color: var(--main-background);
 }
 
-/* --------------------------occupation------------------------------- */
+/* occupation */
 .occupation.list {
   display: flex;
   justify-content: center;
@@ -250,7 +246,7 @@ justify-content: center;
   margin-left: 30px;
 }
 
-/*-------------------------------team--------------------------------- */
+/* team */
 .team-section {
   background-color: var(--secondary-background);
 }
@@ -277,7 +273,7 @@ justify-content: center;
   margin-top: 10px;
 }
 
-/* ------------------------------------------------------------footer------------------------------------------------------------ */
+/* footer */
 .footer {  
   width: 1200px;
   padding: 0 15px;
@@ -312,7 +308,7 @@ address ul {
 } */
 
 
-/* ------------------------------------------------------------portfolio------------------------------------------------------------ */
+/* portfolio */
 .filter {
   display: flex;
   justify-content: center;
