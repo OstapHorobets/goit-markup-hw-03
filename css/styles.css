@@ -51,7 +51,6 @@ ul {
 .container {
 min-width: 1200px;
 padding: 0 15px;
-/* outline: red solid 2px; */
 padding-top: 94px;
 padding-bottom: 94px;
 margin-right: auto;
@@ -64,18 +63,20 @@ margin-left: auto;
 
 /* ------------------------------------------------------------header------------------------------------------------------------ */
 header {
-    background-color: var(--main-background);  
+    background-color: var(--main-background); 
+    border-bottom: 1px solid #ECECEC; 
 }
 .header-div {
   margin-right: auto;
   margin-left: auto;
   width: 1200px;
-}
-.header-nav {
-  display: flex;
+    display: flex;
   align-items: center;
   justify-content: flex-start;
-  border-bottom: 1px solid #ECECEC;
+  }
+.header-nav {
+
+  
   padding: 0 15px;
   }
 
@@ -268,10 +269,12 @@ justify-content: center;
   font-weight: 500;
   line-height: 1.17;
   font-size: 16px;
+  margin-top: 30px;
 }
 .team-job {
   line-height: 1.17;
   font-size: 16px;
+  margin-top: 10px;
 }
 
 /* ------------------------------------------------------------footer------------------------------------------------------------ */
@@ -360,4 +363,8 @@ address ul {
 }
 .projects li {
   margin-bottom: 30px;
+  border: 1px solid #EEEEEE;
+}
+.project-text {
+  margin: 0 24px 20px 24px;
 }
