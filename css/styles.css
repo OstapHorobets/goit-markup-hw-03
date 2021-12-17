@@ -6,6 +6,8 @@ font-family: 'Raleway', sans-serif;
 font-family: 'Roboto', sans-serif;
 */
 
+/* переделать «B15» Для всех секций используется один класс .section, заданы верхние и нижние падинги по 94px, отодвигающие контент внутрь секции.
+убрать марджин из container */
 
 :root {
   --main-text: #757575;
@@ -46,17 +48,20 @@ p {
 ul {
   list-style: none;
   margin: 0;
+  padding: 0;
 }
 
 .container {
-min-width: 1200px;
+width: 1200px;
 padding: 0 15px;
-padding-top: 94px;
-padding-bottom: 94px;
 margin-right: auto;
 margin-left: auto;
 }
 
+.section {
+padding-top: 94px;
+padding-bottom: 94px;
+}
 
 
 /* header */
@@ -64,12 +69,12 @@ margin-left: auto;
 header {
     background-color: var(--main-background); 
     border-bottom: 1px solid #ECECEC; 
+    display: flex;
+  align-items: center;
+  justify-content: flex-start;
 }
 .header-div {
-  margin-right: auto;
-  margin-left: auto;
-  width: 1200px;
-    display: flex;
+  display: flex;
   align-items: center;
   justify-content: flex-start;
   }
@@ -233,7 +238,7 @@ justify-content: center;
   display: none;
 }
 
-.features-section {
+.features.section {
   background-color: var(--main-background);
 }
 
@@ -247,7 +252,7 @@ justify-content: center;
 }
 
 /* team */
-.team-section {
+.team.section {
   background-color: var(--secondary-background);
 }
 
@@ -354,13 +359,19 @@ address ul {
   flex-wrap: wrap;
   justify-content: center;
 }
-.projects li+li {
+/* .projects li+li {
   margin-left: 30px;
-}
+} */
 .projects li {
   margin-bottom: 30px;
   border: 1px solid #EEEEEE;
+  width: 370px;
+  margin-left: 30px;
 }
+.projects li:nth-child(3n+1) {
+  margin-left: 0;
+}
+
 .project-text {
   margin: 0 24px 20px 24px;
 }
