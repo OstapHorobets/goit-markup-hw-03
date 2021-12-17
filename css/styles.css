@@ -359,9 +359,7 @@ address ul {
   flex-wrap: wrap;
   justify-content: center;
 }
-/* .projects li+li {
-  margin-left: 30px;
-} */
+
 .projects li {
   margin-bottom: 30px;
   border: 1px solid #EEEEEE;
