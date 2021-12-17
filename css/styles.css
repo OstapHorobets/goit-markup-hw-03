@@ -6,9 +6,6 @@ font-family: 'Raleway', sans-serif;
 font-family: 'Roboto', sans-serif;
 */
 
-/* переделать «B15» Для всех секций используется один класс .section, заданы верхние и нижние падинги по 94px, отодвигающие контент внутрь секции.
-убрать марджин из container */
-
 :root {
   --main-text: #757575;
   --title-color: #212121;
